@@ -65,3 +65,13 @@ module.exports = {
     countVowelsIterative,
     countVowelsRecursive
 }
+
+/* 
+These are the potential pitfalls of the recursive function: 
+  - The recursive function consumes a lot of memory because they create a new stack frame for each recursive call. So, if  the recursion depth is very large, 
+  the program may run out of memory or cause a stack overflow error. While I was working on it I got this stack overflow error. 
+  - The recursive function is slower than the linear function as expected.
+  - The recursive function is more difficult to understand. I think this is the biggest drawback to me. 
+
+For the linier program I struggle to see pitfalls.
+*/
